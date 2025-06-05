@@ -4,7 +4,7 @@ This project demonstrates the use of **Support Vector Machines (SVM)** for binar
 
 ---
 
-## 🔍 Objective
+##  Objective
 
 To classify tumor diagnosis (Malignant or Benign) using SVM techniques with the following goals:
 
@@ -16,7 +16,7 @@ To classify tumor diagnosis (Malignant or Benign) using SVM techniques with the 
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - **File:** `Cancer_Data.csv`
 - **Target Column:** `diagnosis`
@@ -26,7 +26,7 @@ To classify tumor diagnosis (Malignant or Benign) using SVM techniques with the 
 
 ---
 
-## 🛠️ Tools and Libraries
+##  Tools and Libraries
 
 - Python
 - NumPy
@@ -37,9 +37,9 @@ To classify tumor diagnosis (Malignant or Benign) using SVM techniques with the 
 
 ---
 
-## 🧪 Model Training
+##  Model Training
 
-### ✅ Linear SVM
+###  Linear SVM
 ```python
 model = SVC(kernel='linear')
 model.fit(x_train, y_train)
